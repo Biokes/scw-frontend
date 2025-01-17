@@ -1,13 +1,12 @@
-import {View} from "react-native";
-import {Link} from "expo-router";
+import {SafeAreaView, ScrollView, View} from "react-native";
 
 export default function Notifications(){
     return (
-        <View>
-            <Text>Notifications</Text>
-            <View>
-                <Link href={'/notifications'}>View All Notification</Link>
-            </View>
-        </View>
+        <SafeAreaView className={'h-full bg-white'}>
+
+            <ScrollView contentContainerClassName={'h-full'}>
+
+            </ScrollView>
+        </SafeAreaView>
     )
 }
